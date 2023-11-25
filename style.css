@@ -1,0 +1,1813 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 13px;
+    /* position: fixed;
+    z-index: 999; */
+}
+#nav h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 17px 10px;
+    transition: all ease 0.7s;
+}
+#nav h4:hover{
+    color: #fd6c03;
+}
+#nav #icons{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fd6c03;
+    padding: 10px 10px;
+   
+}
+#nav i{
+    gap: 40px;
+    margin-left: 15px;
+    transition: all ease 0.7s;
+}
+#nav i:hover{
+    color: aliceblue;
+}
+#nav img{
+    height: 70px;
+    width: 160px;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: black; */
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Landing-Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    justify-content: space-between;
+}
+#page1 #bg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page1 #part1{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 32%;
+    /* background-color: cornflowerblue; */
+    padding: 40px 70px;
+    
+}
+#page1 #part1 h4{
+    font-size: 28px;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #fd6c03;
+}
+
+#page1 #part1 h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 18px;
+    line-height: 70px;
+    color: #fd6c03;
+}
+#page1 #part1 span{
+    color: aliceblue;
+}
+
+#page1 #part1 h6{
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 45px;
+    color: rgba(240, 248, 255, 0.763);
+ 
+}
+#page1 #part1 button{
+    height: 50px;
+    width: 135px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 17px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 60px;
+    background-color: #fd6c03;
+    padding: 8px 5px;
+    transition: all ease 0.5s;
+}
+#page1 #part1 button:hover{
+    border: 2px solid #fd6c03;
+    background-color: black;
+    color: white;
+}
+#page1 #part1 #icon{
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 70px;
+    color: #fd6c03;
+    
+}
+#page1 #part1 i{
+    padding-left: 10px;
+}
+#page1 #part1 i:hover{
+    color: aliceblue;
+}
+
+#page1 #part2{
+    height: 100%;
+    width: 32%;
+    position: absolute;
+    top: 0;
+    left: 34%;
+    /* background-color: hotpink; */
+    /* position: relative; */
+   
+}
+#page1 #part2 #circle{
+    height: 638px;
+    width: 400px;
+    position: absolute;
+    top: -0%;
+}
+#girl{
+    height: 97%;
+    width: 85%;
+    position: absolute;
+    top: 18%;
+    left: -2%;
+    
+}
+
+#page1 #part3{
+    height: 100%;
+    width: 32%;
+    /* background-color: cornflowerblue; */
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 68%;
+    
+}
+#page1 #part3 h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 75px;
+    
+    
+}
+#page1 #part3 img{
+    height: 190px;
+    width: 320px;
+    border-radius: 13px;
+    margin-top: 20px;
+   
+}
+#page1 #part3 .ri-play-circle-line{
+    font-size: 90px;
+    font-weight: 500;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: #e56408f9;
+    /* z-index: 99; */
+}
+#page1 #part3 #e41 img{
+    height: 60px;
+    width: 90px;
+    margin-top: 93px;
+}
+#e41 h2{
+    font-size: 30px;
+    font-weight: 650;
+    position: absolute;
+    top: 48%;
+    left: 28%;
+    color: aliceblue;
+}
+
+#e41 h5{
+    font-size: 16px;
+    font-weight: 650;
+    position: absolute;
+    top: 57%;
+    left: 29%;
+    line-height: 27px;
+    color: rgba(240, 248, 255, 0.749);
+}
+
+#page1 #part3 #e34 img{
+    height: 60px;
+    width: 90px;
+    margin-top: 85px;
+}
+#e34 h2{
+    font-size: 30px;
+    font-weight: 650;
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    color: aliceblue;
+}
+
+#e34 h5{
+    font-size: 16px;
+    font-weight: 650;
+    position: absolute;
+    top: 78%;
+    left: 29%;
+    line-height: 27px;
+    color: rgba(240, 248, 255, 0.749);
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+#page2 #part-1{
+    height: 100%;
+    width: 50%;
+    /* background-color:red; */
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
+}
+
+#page2 #part-1 #free{
+    height: 80%;
+    width: 45%;
+    background-color: #373737;
+    border-radius: 20px;
+    padding: 35px 27px;
+    transition: margin 0.5s ease;
+ }
+ 
+#page2 #part-1 #free:hover{
+    margin-top: 25px;
+    background-color: #fd6c03;
+    
+} 
+
+#page2 #part-1 #free:hover h2{
+    color: #000;
+    
+} 
+
+#page2 #part-1 #free:hover h5{
+   
+    color: #000000b6;
+} 
+
+#page2 #part-1 #free:hover .ri-truck-line{
+    color: #000;
+} 
+
+.ri-truck-line{
+    font-size: 90px;
+    font-weight: 300;
+    color: #fd6c03;
+}
+#free h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+#free h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.642);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#page2 #part-1 #day{
+    height: 80%;
+    width: 45%;
+    background-color: #373737;
+    border-radius: 20px;
+    padding: 35px 27px; 
+    transition: margin 0.5s ease; 
+}
+
+#page2 #part-1 #day:hover{
+    margin-top: 25px;
+    background-color: #fd6c03;
+    
+} 
+
+#page2 #part-1 #day:hover h2{
+    color: #000;
+    
+} 
+
+#page2 #part-1 #day:hover h5{
+   
+    color: #000000b6;
+} 
+
+#page2 #part-1 #day:hover .ri-timer-line{
+    color: #000;
+} 
+.ri-timer-line{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fd6c03;
+}
+#day h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+#day h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.642);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#page2 #part-2{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
+}
+
+#page2 #part-2 #easy{
+    height: 75%;
+    width: 45%;
+    background-color: #373737;
+    border-radius: 20px;
+    padding: 27px 27px;
+    transition: margin 0.5s ease;
+}
+
+#page2 #part-2 #easy:hover{
+    margin-top: 25px;
+    background-color: #fd6c03;
+}
+
+#page2 #part-2 #easy:hover h2{
+    color: #000;
+    
+} 
+
+#page2 #part-2 #easy:hover h5{
+   
+    color: #000000b6;
+} 
+
+#page2 #part-2 #easy:hover .ri-money-dollar-circle-line {
+    color: #000;
+} 
+
+.ri-money-dollar-circle-line{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fd6c03;
+}
+#easy h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+#easy h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.642);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#page2 #part-2 #best{
+    height: 75%;
+    width: 45%;
+   background-color: #fd6c03;
+    border-radius: 20px;
+    padding: 27px 27px;
+    transition: margin 0.5s ease;
+}
+
+#page2 #part-2 #best:hover{
+    margin-top: 25px;
+    background-color: #373737;
+}
+
+#page2 #part-2 #best:hover h2{
+    color: whitesmoke;
+    
+} 
+
+#page2 #part-2 #best:hover h5{
+   
+    color: rgba(255, 255, 255, 0.721);
+} 
+
+#page2 #part-2 #best:hover .ri-hand-coin-line {
+    color: #fd6c03;
+} 
+
+
+.ri-hand-coin-line{
+    font-size: 70px;
+    font-weight: 500;
+    color: black;
+}
+#best h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+}
+
+#best h5{
+    font-size: 15px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.756);
+    margin-top: 20px;
+    line-height: 30px;
+}
+#page-3{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+#page-3 #part1{
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+    padding-top: 70px;
+}
+#page-3 #part1 #its h4{
+    font-size: 23px;
+    font-size: 500;
+    color: #fd6c03;
+}
+
+#page-3 #part1 #its h1{
+    font-size: 55px;
+    font-size: 700;
+    line-height: 55px;
+    margin-top: 25px;
+    color: whitesmoke;
+}
+#its span{
+    color: #fd6c03;
+}
+
+#page-3 #part1 #its h6{
+    font-size: 14px;
+    font-size: 500;
+    margin-top: 45px;
+    color: rgba(245, 245, 245, 0.747);
+}
+
+#page-3 #part1 #its h5{
+    font-size: 13px;
+    font-size: 500;
+    margin-top: 40px;
+    color: rgba(245, 245, 245, 0.759);
+}
+#page-3 #part1 #its #icons{
+    font-size: 25px;
+    font-weight: 500;  
+}
+#page-3 #part1 #icons h5{
+    color: whitesmoke;
+    font-size: 15px;
+}
+#page-3 #part1 #its{
+    transition: all ease 0.5s;
+}
+#page-3 #part1 #its #icons i{
+    color: #fd6c03;
+   margin-right: 10px;
+}
+
+#page-3 #part1 #its button{
+    height: 45px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #fd6c03;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border: none;
+}
+#page-3 #part1 #its button:hover{
+    border: 2px solid #fd6c03;
+    color: whitesmoke;
+    background-color: #000;
+}
+
+#page-3 #part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkred; */
+}
+
+#page-3 #part2 #first{
+    height: 60%;
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 60px;
+    background-image: url(	https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/LP-6-1024x683.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#page-3 #part2 #second{
+    height: 25%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-3 #part2 #second .elem{
+    height: 80%;
+    width: 32%;
+    /* background-color: orchid; */
+    border-radius: 10px;
+    margin-top: 12px;
+    /* animation-name: elem; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; */
+    animation-direction: alternate-reverse;
+    
+}
+#page-3 #part2 #second .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+@keyframes elem {
+    0%{
+        transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+}
+#talk{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.868);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#talk img{
+    height: 70px;
+    width: 140px;
+    /* filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg ); */
+    
+}
+#talk img:hover{
+   
+}
+#page3{
+    height: 200%;
+    width: 100%;
+    position: relative;
+}
+#page3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page3 #first{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#first h4{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fd6c03;
+   
+}
+#first h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fd6c03;
+    margin-top: 25px;
+}
+#first h1 span{
+    color: aliceblue;
+}
+#first h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.782);
+    margin-top: 35px;
+}
+#starter{
+   position: absolute;
+    top: 33%;
+    left: 3%;
+    height: 30%;
+    width: 45%;
+   background-color: #fd6c03;
+    border-radius: 10px;
+    /* padding: 45px 20px; */
+    /* position: relative; */
+    overflow: hidden;
+   
+   
+}
+#starter h2{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-transform: capitalize;
+}
+#starter:hover #si{
+    bottom: 0;
+  
+}
+#starter:hover h2{
+    color: aliceblue;
+}
+
+#starter:hover h5{
+    color: rgba(240, 248, 255, 0.693);
+}
+
+#starter:hover .ri-shield-star-line {
+    color: #fd6c03;
+}
+#starter h5{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.ri-shield-star-line{
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+}
+#si{
+    height: 100%;
+    width: 100%;
+   background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Bg-6.jpg);
+   background-size: cover;
+   background-position: 90% 50%;
+    position: absolute;
+    bottom: -100%;
+   /* opacity: 0; */
+   border-radius: 10px;
+   transition: bottom ease 0.5s;
+  
+}
+#vape{
+    position: absolute;
+    top: 33%;
+    left: 52.5%;
+    height: 30%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(46, 45, 45, 0.995);
+    /* padding: 45px 20px; */
+    overflow: hidden;
+}
+
+#vape h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+#vape:hover #vi{
+    bottom: 0;
+  
+}
+#vape h5{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    color: rgba(240, 248, 255, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#vape img{
+    /* font-size: 30px; */
+    font-weight: 500;
+    height: 70px;
+    width: 70px;
+    color: #fd6c03;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+#vi{
+    height: 100%;
+    width: 100%;
+   background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Bg-5.1.jpg);
+   background-size: cover;
+   background-position: 90% 50%;
+    position: absolute;
+    bottom: -100%;
+   /* opacity: 0; */
+   border-radius: 10px;
+   transition: bottom ease 0.5s;
+  
+  
+}
+#tanks{
+    position: absolute;
+    top: 33%;
+    left: 77%;
+    height: 63.5%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(46, 45, 45, 0.995);
+    /* padding: 300px 20px; */
+    transition: all ease 0.5s;
+    
+}
+.ri-notification-2-line{
+    font-size: 50px;
+    font-weight: 700;
+    color:#fd6c03;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#tanks:hover{
+    background-color: #fd6c03;
+}
+
+#tanks:hover h2{
+    color: #000;
+}
+
+#tanks:hover h5{
+    color: #000000b0;
+}
+
+#tanks:hover .ri-notification-2-line {
+    color: #000;
+}
+
+#tanks h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+#tanks h5{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    color: rgba(240, 248, 255, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#acc img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#acc{
+    position: absolute;
+    top: 67%;
+    left: 3%;
+    height: 30%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(46, 45, 45, 0.995);
+    /* padding: 45px 20px; */
+    transition: all ease 0.5s;
+}
+
+#acc h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+#acc h5{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    color: rgba(240, 248, 255, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#acc:hover{
+    background-color: #fd6c03;
+}
+
+#acc:hover h2{
+    color: #000;
+}
+
+#acc:hover h5{
+    color: #000000b0;
+}
+
+#acc:hover .ri-notification-2-line {
+    color: #000;
+}
+#e{
+    position: absolute;
+    top: 67%;
+    left: 27.5%;
+    height: 30%;
+    width: 45%;
+    border-radius: 10px;
+    background-color:  rgba(46, 45, 45, 0.995);
+    /* padding: 45px 20px; */
+    overflow: hidden;
+}
+.ri-drop-line{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fd6c03;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+}
+
+#e h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+#e h5{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    color: rgba(240, 248, 255, 0.808);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+#ei{
+    
+    height: 100%;
+    width: 100%;
+   background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Bg-3.jpg);
+   background-size: cover;
+   background-position: 90% 50%;
+    position: absolute;
+    bottom: -100%;
+   /* opacity: 0; */
+   border-radius: 10px;
+   transition: bottom ease 0.5s;
+  
+}
+
+#e:hover #ei{
+    bottom: 0;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 50PX 50PX;
+}
+#page4 #part1{
+    height: 70%;
+    width: 45%;
+    /* background-color: khaki; */
+    margin-top: 60PX;
+    margin-left: 30PX;
+    position: relative;
+}
+#page4 #part1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+#page4 #part1 i{
+    font-size: 80px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#page4 #part2{
+    height: 70%;
+    width: 45%;
+    /* background-color: seagreen; */
+    margin-top: 60PX;
+    margin-right: 30PX;
+}
+#page4 #part2 #the>h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-top: 5px;
+}
+
+#page4 #part2 #the h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+#page4 #part2 #the span{
+    color: #fd6c03;
+}
+
+#page4 #part2 #the h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(245, 245, 245, 0.784);
+    margin-top: 40px;
+}
+#page4 #part2 #an{
+    display: flex;
+    gap: 80px;
+    margin-top: 65px;
+    font-size: 16px;
+    line-height: 35px;
+    color: whitesmoke;
+}
+#page4 #part2 #an h4::before{
+    content:"☑️" ;
+    /* color: white; */
+    /* <i class="ri-check-line"></i> */
+   
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 60px;
+}
+#page5 #part1{
+    height: 70%;
+    width: 33%;
+    /* background-color: gold; */
+}
+#page5 #part1 #we h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-top: 60px;
+}
+
+#page5 #part1 #we h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 20px; 
+}
+#page5 #part1 #we span{
+    color: #fd6c03;
+}
+
+#page5 #part1 #we> h6{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(245, 245, 245, 0.774);
+    margin-top: 45px; 
+}
+#buy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    transition: all ease 0.5s;
+}
+#buy h5{
+    font-size: 23px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+#buy h6{
+    font-size: 19px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-right: 18px;
+}
+#buy h6:hover{
+    color: whitesmoke;
+}
+
+#page5 #part2{
+    height: 70%;
+    width: 25%;
+    /* background-color: green; */
+    margin-left: 24px;
+}
+#page5 #part2 img{
+    height: 83%;
+    width: 83%;
+    object-fit: cover;
+    object-position: 50% -20%;
+}
+
+#page5 #part3{
+    height: 70%;
+    width: 33%;
+    /* background-color: gray; */
+    padding-right: 14px;
+}
+#one{
+    margin-top: 35px;
+}
+#part3 #batt{
+    height: 12px;
+    width: 100%;
+    background-color: #242323;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#batt #ery{
+    height: 100%;
+    width: 90%;
+    background-color: #fd6c03;
+    border-radius: 5px;
+}
+#b{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+#b h4{
+    font-size: 20px;
+    font-weight: 650;
+    color: whitesmoke;
+   
+}
+#b h5{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fd6c03;
+}
+#two{
+    margin-top: 35px;
+}
+
+#part3 #firing{
+    height: 12px;
+    width: 100%;
+    background-color: #242323;
+    border-radius: 5px;
+    
+}
+#firing #eight{
+    height: 100%;
+    width: 85%;
+    background-color: #fd6c03;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#f{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#f h4{
+    font-size: 20px;
+    font-weight: 650;
+    color: whitesmoke;
+   
+}
+#f h5{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fd6c03;
+}
+#three{
+    margin-top: 35px;
+}
+
+#part3 #safety{
+    height: 12px;
+    width: 100%;
+    background-color: #242323;
+    border-radius: 5px;
+    
+}
+#safety #nine{
+    height: 100%;
+    width: 98%;
+    background-color: #fd6c03;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#s{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#s h4{
+    font-size: 20px;
+    font-weight: 650;
+    color: whitesmoke;
+   
+}
+#s h5{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fd6c03;
+}
+
+#four{
+    margin-top: 35px;
+}
+
+#part3 #air{
+    height: 12px;
+    width: 100%;
+    background-color: #242323;
+    border-radius: 5px;
+    
+}
+#air #seven{
+    height: 100%;
+    width: 75%;
+    background-color: #fd6c03;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#four #a{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#four #a h4{
+    font-size: 20px;
+    font-weight: 650;
+    color: whitesmoke;
+   
+}
+#four #a h5{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fd6c03;
+}
+
+#five{
+    margin-top: 35px;
+}
+
+#part3 #coil{
+    height: 12px;
+    width: 100%;
+    background-color: #242323;
+    border-radius: 5px;
+    
+}
+#coil #hund{
+    height: 100%;
+    width: 100%;
+    background-color: #fd6c03;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#c{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#c h4{
+    font-size: 20px;
+    font-weight: 650;
+    color: whitesmoke;
+   
+}
+#c h5{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fd6c03;
+}
+#page6{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Landing-Page-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 20px; */
+    /* z-index: -2; */
+}
+#page6 #part-1{
+    height: 70%;
+    width: 45%;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+    align-items: center;
+   
+    /* position: relative; */
+    /* z-index: 2; */
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+#page6 #part-1 .element{
+    /* position: relative; */
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    display: inline-block;
+    margin-top: 18%;
+    /* margin-right: 3px;
+    margin-left: 3px; */
+    z-index: 999;
+    animation-name: sah;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    /* animation-delay: 5s; */
+}
+@keyframes sah {
+    0%{
+        transform:translateX(0);
+    }
+    13%{
+        transform:translateX(0);
+       
+    }
+    26%{
+        transform:translateX(0);
+       
+    }
+    39%{
+        transform: translateX(-100%);
+       
+    }
+    52%{
+        transform: translateX(-100%);
+       
+    }
+    65%{
+        transform: translateX(-200%);
+       
+    }
+    80%{
+        transform: translateX(-200%);
+       
+    }
+    95%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.element #sec{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 45px;
+    /* display: inline-block; */
+    
+}
+.element h6{
+    font-size: 15.5px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(245, 245, 245, 0.756);
+}
+#sec h4{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#sec h4 span{
+    color: #fd6c03;
+    font-size: 14px;
+    font-weight: 700;
+}
+.element #sec img{
+   height: 80px;
+   margin-right: 25px;
+
+}
+.ri-double-quotes-r{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-left: 280px;
+}
+
+#page6 #part-2{
+    height: 70%;
+    width: 45%;
+    /* background-color: lightcoral; */
+}
+#page6 #part-2 h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fd6c03;
+    margin-top: 55px;
+}
+
+#page6 #part-2 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+#page6 #part-2 span{
+    color: #fd6c03;
+}
+#page6 #part-2 h6{
+    font-size: 15.5px;
+    font-weight: 700;
+    color: rgba(245, 245, 245, 0.737);
+    margin-top: 25px;
+}
+
+#page6 #part-2 button{
+    height: 55px;
+    width: 220px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+   
+    
+    
+  
+}
+#page6 #part-2 button #orange{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background-color: #fd6c03;
+    transition: left ease 0.5s;
+   
+   
+}
+
+#page6 #part-2 button:hover #orange {
+    left: 0;
+    /* color: whitesmoke; */
+}
+
+#page6 #part-2 button:hover h5 {
+    
+    color: whitesmoke;
+}
+
+#page6 #part-2 button h5 {
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+   left: 20px;
+   top: 18px
+}
+#page7{
+    height: 50%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#page{
+    text-align: center;
+}
+#page7 h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:#fd6c03;
+}
+
+#page7 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:whitesmoke;
+    margin-top: 12px;
+}
+
+#page7 span{
+    color:#fd6c03;
+}
+
+#page7 h6{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(245, 245, 245, 0.745);
+    text-align: center;
+    margin-top: 40px;
+}
+#page8{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+   padding-left: 45px;
+   
+}
+#page8 .blog{
+    height: 90%;
+    width: 21%;
+    background-color: #232323;
+    margin-left: 35px;
+  
+   
+}
+.blog img{
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page8 .blog h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+#page8 .blog h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 16px;
+    margin-left: 12px;
+    line-height: 24px;
+}
+#page9{
+    height: 100%;
+    width: 100%;
+   background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Bg-2.jpg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: space-around;
+   padding: 0 45px;
+}
+#page9 #part1{
+    height: 100%;
+    width: 70%;
+    /* background-color: aqua; */
+}
+#page9 #part1 #first{
+    height: 50%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page9 #part1 #first #costum{
+    height: 100%;
+    width: 70%;
+    /* background-color: darkblue; */
+}
+#page9 #first #costum h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+#page9 #first #costum h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 40px;
+    color: rgba(245, 245, 245, 0.751);
+}
+#page9 #first #costum h2 span{
+    color: #fd6c03;
+}
+
+#page9 #first #costum h6{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    /* line-height: 40px; */
+    color: whitesmoke;
+}
+
+#page9 #part1 #first #two{
+    height: 90%;
+    width: 30%;
+    /* background-color: firebrick; */
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/G-4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+#page9 #part1 #second{
+    height: 50%;
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+}
+#page9 #part1 #second #three{
+    height: 90%;
+    width: 30%;
+    /* background-color: magenta; */
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/G-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#page9 #part1 #second #four{
+    height: 90%;
+    width: 68%;
+    /* background-color: hotpink; */
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/G-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 18px;
+
+   
+}
+#page9 #part2{
+    height: 95%;
+    width: 23%;
+    /* background-color: blue; */
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/G-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+#page10{
+    height: 55%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+#meet h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fd6c03;
+}
+
+#meet h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:whitesmoke;
+    margin-top: 20px;
+}
+#meet span{
+    color: #fd6c03;
+}
+
+#meet h6{
+    font-size: 15px;
+    font-weight: 600;
+    color:rgba(245, 245, 245, 0.762);
+    margin-top: 40px;
+}
+#page11{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 50px;
+}
+#page11 #top{
+    height: 50%;
+    width: 100%;
+    /* background-color: burlywood; */
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+#page11  .vapers{
+    height: 100%;
+    width: 47%;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+#bottom{
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+#page11 .vapers h5{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fd6c03;
+}
+
+#page11 .vapers h2{
+    font-size: 27px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+#page11 .vapers h6{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(245, 245, 245, 0.767);
+    margin-top: 8px;
+}
+.vapers #i{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fd6c03;
+    margin-top: 10px;
+}
+.vapers i{
+    margin-right: 10px;
+}
+.vapers #circle1{
+    height: 400px;
+    width: 240px;
+    position: absolute;
+    /* top: 0px; */
+    right: 35px;
+}
+.vapers #boy1{
+    height: 105%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#page12{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://kfkit.rometheme.pro/puffclouds/wp-content/uploads/sites/11/2021/09/Landing-Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#page12 #circle2{
+   height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+}
+#div{
+    height: 70%;
+    width: 50%;
+    /* background-color: rgba(0, 0, 0, 0.216); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#div img{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 60px;
+    left: 26%;
+}
+#home2{
+    display: flex;
+    /* justify-content: space-around; */
+    color: whitesmoke;
+    margin-top: 30%;
+    margin-left: 110px;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all ease 1.5s;
+}
+#home2 h5:hover{
+    color: #fd6c03;
+    scale: 0.98;
+}
+#div h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(245, 245, 245, 0.647);
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+}
+#i2{
+    font-size: 27px;
+    font-weight: 400;
+    color: #fd6c03;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    transition: all ease 1.5s;
+}
+#i2 i{
+    margin-right: 30px;
+}
+#i2 i:hover{
+    color: whitesmoke;
+    scale: 0.98;
+}
